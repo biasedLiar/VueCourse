@@ -1,7 +1,7 @@
 <template>
   <div v-if="event">
       <h1>{{ event.title}}</h1>
-      <p>{{event.time}} at {{event.date}} @ {{event.place}}</p>
+      <p>{{event.time}} at {{event.date}} @ {{event.location}}</p>
       <p>{{event.description}}</p>
   </div>
 </template>
